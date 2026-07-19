@@ -1,0 +1,13 @@
+{
+  "name": "HalluProbe-VL",
+  "counts": {
+    "object": 4594,
+    "attribute": 1996,
+    "relation": 2000
+  },
+  "object_source": "COCO 2017 val (leak-free w.r.t. POPE/CHAIR, which use COCO 2014 val)",
+  "attribute_source": "Visual Genome",
+  "relation_source": "Visual Genome",
+  "labels": "from source annotations, NOT from tool predictions",
+  "image_paths": "relative; see README for how to point them at your COCO/VG copy"
+}
