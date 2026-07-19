@@ -1,0 +1,72 @@
+{
+  "ckpt": "results/checkpoints/<align_ckpt>.pt  (legacy CM-OTA baseline; see negative_results/)",
+  "tag": "align_quick",
+  "pope": {
+    "layer": "OLD",
+    "old_mc_existence": {
+      "n": 1200,
+      "pos_rate": 0.5,
+      "auc": 0.5069777777777777,
+      "ap": 0.5066998133988799,
+      "best_f1": 0.6633,
+      "best_thr": 0.5903193771839141
+    }
+  },
+  "amber_attr": {
+    "layer": "ALD",
+    "ald_kl_support": {
+      "n": 266,
+      "pos_rate": 0.5,
+      "auc": 0.54344507886257,
+      "ap": 0.5314569533185177,
+      "best_f1": 0.6616,
+      "best_thr": 0.9837119519710541
+    },
+    "old_phrase_support": {
+      "n": 266,
+      "pos_rate": 0.5,
+      "auc": 0.523489174062977,
+      "ap": 0.5611941156670437,
+      "best_f1": 0.6649,
+      "best_thr": 0.5967978954315185
+    }
+  },
+  "amber_rel": {
+    "layer": "RLD",
+    "rld_surrogate": {
+      "n": 400,
+      "pos_rate": 0.575,
+      "auc": 0.4726598465473145,
+      "ap": 0.5627500587222986,
+      "best_f1": 0.7235,
+      "best_thr": 0.491368448138237
+    },
+    "old_phrase_support": {
+      "n": 400,
+      "pos_rate": 0.575,
+      "auc": 0.4784143222506394,
+      "ap": 0.5692077750022126,
+      "best_f1": 0.7203,
+      "best_thr": 0.5961305570602417
+    }
+  },
+  "vg_rel": {
+    "layer": "RLD",
+    "rld_surrogate": {
+      "n": 400,
+      "pos_rate": 0.5,
+      "auc": 0.49983749999999993,
+      "ap": 0.499757326351984,
+      "best_f1": 0.6622,
+      "best_thr": 0.4898494517803192
+    },
+    "old_phrase_support": {
+      "n": 400,
+      "pos_rate": 0.5,
+      "auc": 0.48124999999999996,
+      "ap": 0.5006601243652153,
+      "best_f1": 0.6622,
+      "best_thr": 0.5941530406475067
+    }
+  }
+}
