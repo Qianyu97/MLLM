@@ -1,0 +1,56 @@
+# ---- model weights: NEVER commit (~97 GB, upstream licences) ----
+models/
+*.bin
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.gguf
+
+# ---- third-party corpora: download from the original sources ----
+basic/
+benchmarks/
+training/
+cache/
+derived/
+data/coco/
+data/visual_genome/
+*.parquet
+
+# ---- large image dirs accidentally placed in the repo ----
+**/images/
+**/val2014/
+**/val2017/
+**/VG_100K*/
+
+# ---- run artefacts (keep the small dumps we ship on purpose) ----
+results/checkpoints/
+results/logs/
+results/figures/
+results/tables/
+results/predictions/*
+!results/predictions/hhd_detection_specialist/
+!results/predictions/hhd_detection_specialist/*.jsonl
+
+# ---- build output ----
+paper/figs/*.pdf
+paper/eqs/
+*.docx
+!paper/PAPER_README.md
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

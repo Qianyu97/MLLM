@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or the HalluProbe-VL probe set, please cite the paper below."
+title: "Hierarchical Grounding Fusion for Detecting and Mitigating Object, Attribute, and Relation Hallucinations in Multimodal Large Language Models"
+abstract: >-
+  A training-free, plug-and-play framework that fuses off-the-shelf grounding
+  evidence to detect object, attribute, and relation hallucinations in multimodal
+  large language models, to mitigate object hallucination by detect-then-revise,
+  and to improve yes/no answering by calibrated decision fusion. Demonstrated on
+  four backbones (LLaVA-1.5, LLaVA-1.6, InstructBLIP, Qwen-VL) with no fine-tuning.
+  Also releases HalluProbe-VL, a leak-free diagnostic for three-kind detection.
+authors:
+  - family-names: "TODO-Surname"
+    given-names: "TODO-Given"
+    # affiliation: "TODO-Institution"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: "1.0.0"
+date-released: "2026-07-15"
+license: MIT
+keywords:
+  - multimodal large language models
+  - hallucination
+  - information fusion
+  - visual grounding
+  - training-free correction
+  - image captioning
+# Uncomment and complete once the paper is accepted / preprinted:
+# preferred-citation:
+#   type: article
+#   title: "Hierarchical Grounding Fusion for Detecting and Mitigating Object, Attribute, and Relation Hallucinations in Multimodal Large Language Models"
+#   journal: "Information Fusion"
+#   year: 2026
+#   doi: "TODO"
+#   authors:
+#     - family-names: "TODO-Surname"
+#       given-names: "TODO-Given"
